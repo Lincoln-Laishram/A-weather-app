@@ -1,0 +1,68 @@
+body{
+    background-image:url("https://www.un.org/sites/un2.un.org/files/styles/large-article-image-style-16-9/public/field/image/2023/03/52196025795_06f077377a_c.jpg");     background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    font-family: arial;
+}
+input{
+    border: none;
+    background-color: transparent;
+    padding: 4px;
+    background-color: rgba(255, 255, 255, 0.176);
+    width: 150px;
+    border-radius: 6px;
+}
+input:focus{
+    outline:none;
+    border: 1px solid white;
+}
+input::placeholder{
+    color: black;
+}
+.btn{
+    background-color: transparent;
+    color: rgb(252, 251, 251);
+    border: none;
+    padding: 3.1px;
+    width: 20px;
+}
+.btn:hover{
+    cursor: pointer;
+    color: red;
+}
+
+.container {
+    width: 250px;
+    height: 360px;
+    display: flex;
+    margin-top: 30%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(105, 105, 105, 0.2);
+    backdrop-filter: blur(10px); 
+    border-radius: 15px; 
+    box-shadow: 0px 1px 20px rgba(210, 204, 204, 0.324); 
+    padding: 10px;
+}
+.sunny{
+    color: #fcfc1afc;
+}
+.cloudy{
+    color: whitesmoke;
+}
+.rain{
+    color: rgb(9, 124, 255);
+}
+.temp ,.description{
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.6);
+    text-shadow: 1px 4px 10px black;
+    font-size: 1.1pc;
+}
+.error{
+    color: white;
+    font-size: small;
+    text-align: center;
+}
